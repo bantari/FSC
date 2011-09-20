@@ -1,0 +1,151 @@
+.content {
+  color: #666;
+}
+.content_inner {}
+
+.content h1 {
+  margin: 0px 0px 10px;
+  padding: 10px 0px 0px;
+  font-size: 14px;
+  font-weight: normal;
+  border-top: 2px dotted #999;
+  color: #039;
+}
+.content h2 {
+  margin: 0px 0px 10px;
+  padding: 10px 0px;
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: 2px dotted #999;
+  color: #039;
+}
+.content .promos h2 {
+  color: #69f;
+}
+
+.content h3 {
+  margin: 0px 0px 10px;
+  font-size: 12px;
+  color: #333;
+}
+
+.content hr {
+  height: 0px;
+  border: none;
+  line-height: 1px;
+  border-top: 2px dotted #999;
+  margin: 10px 0px;
+}
+
+.content p {
+  margin: 0px 0px 10px;
+}
+
+.content strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.content a {
+  color: #000;
+  text-decoration: none;
+}
+.content a.more {
+  color: #000;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-right: 12px;
+  background: transparent url("images/arrow3.gif") right 4px no-repeat;
+}
+.content a.email {
+  color: #69f;
+}
+.content a:hover {
+  text-decoration: underline;
+}
+
+
+.left-floater {
+  float: left;
+  margin: 0px 10px 10px 0px;
+}
+
+.content img {
+  margin-bottom: 5px;
+}
+
+/*--------------------------------------------------------------------------------- lists ---*/
+
+.content ul {
+  margin: 0px 0px 10px;
+  padding: 5px 0px 5px 10px;
+  border-left: 2px solid #ccc;
+}
+.content ul li {
+  padding: 0px 0px 0px 12px;
+  background: transparent url("images/arrow2.gif") 0px 3px no-repeat;
+}
+
+.content ul.wide {
+  border: none;
+}
+.content ul li {
+  padding: 0px 0px 0px 12px;
+  margin: 0px 0px 10px;
+}
+
+.content ul.with_date {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  border: none
+}
+.content ul.with_date li {
+  padding: 0px 0px 5px;
+  background-image: none
+}
+.content ul.with_date li .date {
+  display: block;
+  color: #69f;
+}
+
+/*--------------------------------------------------------------------------------- forms ---*/
+
+.content label {
+  font-size: 11px;
+  line-height: 16px;
+  color: #999;
+}
+.content textarea,
+.content input[type="text"] {
+  border: 1px solid #ccc;
+  margin: 0px 0px 5px 0px;
+  padding: 2px 5px;
+  width: 100%;
+}
+.content textarea.with_error,
+.content input.with_error {
+  border-color: #dcc;
+  background-color: #fee;
+}
+.content div.error {
+  margin: 0px 0px 10px;
+  padding: 10px 20px;
+  color: #000;
+  background-color: #fee;
+  border: 1px solid #dcc;
+}
+.content div.error strong {
+  color: #900;
+}
+.content div.success {
+  margin: 0px 0px 10px;
+  padding: 10px 20px;
+  color: #000;
+  background-color: #dfd;
+  border: 1px solid #bdb;
+}
+.content div.success strong {
+  color: #060;
+}
+
+

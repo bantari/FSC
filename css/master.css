@@ -1,0 +1,135 @@
+body {
+  background: #000 url("images/body_bg.gif") top center no-repeat fixed;
+  color: #000;
+  font: 12px/20px Arial,Helvetica,sans-serif;
+}
+
+.main_wrapper {
+  width: 1020px;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+.main_wrapper_inner {}
+
+.clear {
+  clear: both;
+}
+.align_right {
+  text-align: right;
+}
+
+/*-------------------------------------------------------------------------------- header ---*/
+.header {
+  margin: 0px 0px 10px;
+}
+.header_inner {}
+
+/*-------------------------------------------------------------------------------- banner ---*/
+
+.home_banner {
+  margin: 0px 0px 10px;
+  padding: 0px 60px 30px;
+}
+
+.home_banner_inner {
+  height: 300px;
+}
+
+.home_banner hr {
+  height: 0px;
+  border: none;
+  line-height: 1px;
+  border-top: 1px solid #ccc;
+  margin: 2px 0px;
+  display: none;
+}
+
+
+.content_banner {
+  margin: 0px 0px 10px;
+  height: 200px;
+  background-color: #666;
+}
+
+/*---------------------------------------------------------------------------- navigation ---*/
+/*-------------------------------------------------------------------------- layout table ---*/
+
+table.layout_table {
+  width: 100%;
+}
+table.layout_table td {
+  padding: 0px 0px 20px 0px;
+  vertical-align: top;
+}
+table.layout_table td.navigation_column {
+  width: 320px;
+}
+table.layout_table td.navigation_column .navigation {
+  padding: 0px 20px 0px 20px;
+}
+table.layout_table td.navigation_column .navigation_inner {}
+
+table.layout_table td.content_column {}
+
+table.layout_table td.content_column .content {
+  padding: 0px 60px 0px 20px;
+}
+table.layout_table td.content_column .content_inner {}
+
+/*------------------------------------------------------------------------------- content ---*/
+
+.content .columns {}
+.content .columns .column {
+  float: left;
+}
+.content .columns .last {
+  /*float: none;*/
+}
+.content .columns .column.main {
+  float: none;
+  margin-right: 240px;
+}
+.content .columns .column.promos {
+  float: right;
+  width: 200px;
+}
+
+/*--- inner columns - 3 columns, left one the largest ---*/
+
+.content .columns211 {}
+.content .columns211 .column {}
+
+.content .columns211 .column.first {
+  width: 220px;
+  float: left;
+}
+.content .columns211 .column.next {
+  width: 180px;
+  float: left;
+}
+.content .columns211 .column.last {
+  margin: 0px 0px 0px 400px;
+}
+
+/*--- inner columns - 2 columns, same sizes ---*/
+
+.content .columns11 {}
+.content .columns11 .column {
+  width: 300px;
+  float: left;
+}
+
+.content .columns11 .column.first {
+  margin-right: 20px;
+}
+.content .columns211 .column.last {}
+
+/*-------------------------------------------------------------------------------- footer ---*/
+.footer {
+  margin: 20px 0px 0px;
+}
+.footer_inner {
+  padding: 20px 60px;
+}
+

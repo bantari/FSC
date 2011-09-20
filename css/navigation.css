@@ -1,0 +1,93 @@
+.navigation {
+  color: #999;  
+}
+.navigation_inner {
+  padding: 0px 0px 0px 40px;
+}
+
+.navigation h3 {
+  color: #69c;
+  font-weight: normal;
+}
+
+.navigation a {
+  color: #999;
+  text-decoration: none;
+}
+.navigation a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+/*----------------------------------------------------------------------- main navigation ---*/
+
+.navigation ul.main_nav {
+  margin: 0px 0px 40px;
+}
+.navigation ul.main_nav li {
+}
+.navigation ul.main_nav li a {
+  font-size: 14px;
+  display: block;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  color: #999;
+  border-bottom: 2px solid #f6f6f6;
+  background: transparent url("images/nav_bg.gif") 0px 0px;
+}
+.navigation ul.main_nav li a:hover,
+.navigation ul.main_nav li a.current,
+.navigation ul.main_nav li a.current:hover {
+  color: #039;
+  text-align: right;
+  border-bottom: 2px dotted #999;
+  background: transparent url("images/nav_bg.gif") 0px 44px;
+}
+.navigation ul.main_nav li a:hover {
+  text-align: left;
+  border-color: #ccc;
+}
+
+/*------------------------------------------------------------------------ sub navigation ---*/
+
+.navigation ul.sub_nav {
+  margin: 10px 0px;
+}
+.navigation ul.sub_nav li {}
+.navigation ul.sub_nav li a {
+  font-size: 12px;
+  display: block;
+  padding: 0px 0px 0px 10px;
+  background: transparent url("images/arrow1.gif") 0px 90px no-repeat;
+}
+.navigation ul.sub_nav li a:hover,
+.navigation ul.sub_nav li a.current,
+.navigation ul.sub_nav li a.current:hover {
+  color: #69f;
+  background-position: 0px 3px;
+}
+
+/*----------------------------------------------------------------------------------- box ---*/
+
+.navigation .box {
+  padding: 15px 0px;
+  background-image: url("images/box_bg.gif");
+  border-style: none solid;
+}
+.navigation .box.indented .box_inner {
+  padding: 10px;
+}
+.navigation .box.first {
+  padding: 15px 0px 0px;
+}
+.navigation .box.next {
+  padding: 15px 0px 0px;
+}
+.navigation .box.last {
+  padding: 15px 0px;
+}
+.navigation .box_inner{
+  padding: 10px 0px;
+  background-color: #fff;
+}

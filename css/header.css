@@ -1,0 +1,55 @@
+
+.header {
+  font-size: 10px;
+  line-height: 16px;
+}
+.header_inner {}
+
+/*------------------------------------------------------------------------------- address ---*/
+
+.header .address {
+  background-color: #eee;
+  border-bottom: 5px double #fff;
+}
+.header .address_inner {
+  padding: 10px 60px;
+}
+.header .address a {
+  color: #999;
+  text-decoration: none;
+}
+.header .address a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+/*---------------------------------------------------------------------------------- logo ---*/
+
+.header .logo {
+  width: 500px;
+  float: left;
+}
+.header .logo_inner {
+  padding: 20px 40px 30px;
+}
+
+/*-------------------------------------------------------------------------------- search ---*/
+
+.header .search {
+  float: right;
+  display: none;
+}
+.header .search_inner {
+  padding: 70px 40px 0px;
+}
+.header .search input {
+  border: 1px solid #e6e6e6;
+}
+.header .search input[type="text"] {
+  border-right: none;
+}
+.header .search input[type="submit"] {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
