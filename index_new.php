@@ -17,7 +17,7 @@
   <div class="wt-rotator">
     <div class="screen">
       <noscript><!-- placeholder 1st image when javascript is off -->
-        <img src="images/madness_arch2.jpg"/>
+        <img src="images/banner/banner_03.jpg"/>
       </noscript>
     </div>
 
@@ -25,9 +25,9 @@
       <div class="thumbnails">
         <ul>
           <li>
-            <a href="images/img_01.jpg" title="architecture"><img src="images/thumbs/img_01t.gif"/></a>
-            <a href="http://codecanyon.net/user/webtako?ref=webtako" target="_blank"></a>                        
-            <div style="top:5px; left:484px; width:336px; height:0; color:#FFF; background-color:#000;">
+            <a href="images/banner/banner_01.jpg" title="architecture"><img src="images/banner/thumb_01.jpg"/></a>
+            <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
+            <div style="top:150px; left:20px; width:400px; height:0; color:#FFF; background-color:#666;">
               <h1>JQuery Banner Rotator</h1>
               Lorem ipsum no sed posse dicit, cum affert hendrerit suscipiantur in. Est an quod amet utroque, perpetua eloquentiam ea pri. 
               In vim alii dicam disputationi. Mea ne dicat commune petentium, dicit utamur percipit nec id. 
@@ -35,9 +35,31 @@
             </div>
           </li>
           <li>
-            <a href="images/img_02.jpg" title="3D abstract art"><img src="images/thumbs/img_01t.gif"/></a>
-            <a href="http://codecanyon.net/user/webtako?ref=webtako" target="_blank"></a>                        
-            <div style="top:5px; left:5px; width:350px; height:0; color:#FFF; background-color:#000;">
+            <a href="images/banner/banner_02.jpg" title="architecture"><img src="images/banner/thumb_02.jpg"/></a>
+            <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
+            <div style="top:150px; left:20px; width:400px; height:0; color:#FFF; background-color:#000;">
+              <h1>JQuery Banner Rotator</h1>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Sed sed elit eget purus consequat tempor eu ac mauris. Nulla facilisi. 
+              Vivamus consectetur molestie ipsum ac sollicitudin. 
+              Sed venenatis est sit amet nibh molestie vel pharetra velit commodo. 
+              Ut eros orci, sollicitudin sit amet ultricies vitae, varius ac quam. Pellentesque euismod.
+            </div>
+          </li>
+          <li>
+            <a href="images/banner/banner_03.jpg" title="architecture"><img src="images/banner/thumb_03.jpg"/></a>
+            <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
+            <div style="top:150px; left:20px; width:400px; height:0; color:#FFF; background-color:#000;">
+              <h1>JQuery Banner Rotator</h1>
+              Lorem ipsum no sed posse dicit, cum affert hendrerit suscipiantur in. Est an quod amet utroque, perpetua eloquentiam ea pri. 
+              In vim alii dicam disputationi. Mea ne dicat commune petentium, dicit utamur percipit nec id. 
+              Id velit semper fierent eum.
+            </div>
+          </li>
+          <li>
+            <a href="images/banner/banner_04.jpg" title="architecture"><img src="images/banner/thumb_04.jpg"/></a>
+            <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
+            <div style="top:150px; left:20px; width:400px; height:0; color:#FFF; background-color:#000;">
               <h1>JQuery Banner Rotator</h1>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Sed sed elit eget purus consequat tempor eu ac mauris. Nulla facilisi. 

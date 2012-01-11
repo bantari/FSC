@@ -1,4 +1,4 @@
-﻿<?php
+<?php
   $page     = "index";
   $section  = "home";
   $nesting  = 0;
@@ -9,16 +9,79 @@
 
 <div class="home_banner"><div class="home_banner_inner">
   <hr/>
-  <div id='slideshowHolder'>
-    <img src='images/Elisif_20110615_9244.jpg' alt='' width="900" />
-    <img src='images/Elisif_20110621_0244.jpg' alt='' width="900" />
-    <img src='images/Elisif_20110615_9257.jpg' alt='' width="900" />
-  </div>
+
+
+
+
+<div class="container">
+  <div class="wt-rotator">
+    <div class="screen">
+      <noscript><!-- placeholder 1st image when javascript is off -->
+        <img src="images/banner/banner_03.jpg"/>
+      </noscript>
+    </div>
+
+    <div class="c-panel">
+      <div class="thumbnails">
+        <ul>
+          <li>
+            <a href="images/banner/banner_01.jpg" title="architecture"><img src="images/banner/thumb_01.jpg"/></a>
+            <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
+            <div style="top:0px; left:0px; width:900px; height:0; color:#fff; background-color:#000;">
+              <h1>Project Portfolio</h1>
+              Lorem ipsum no sed posse dicit, cum affert hendrerit suscipiantur in. Est an quod amet utroque, perpetua eloquentiam ea pri. 
+              In vim alii dicam disputationi. Mea ne dicat commune petentium, dicit utamur percipit nec id. 
+              Id velit semper fierent eum.
+            </div>
+          </li>
+          <li>
+            <a href="images/banner/banner_02.jpg" title="architecture"><img src="images/banner/thumb_02.jpg"/></a>
+            <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
+            <div style="top:0px; left:0px; width:900px; height:0; color:#fff; background-color:#000;">
+              <h1>Project Portfolio</h1>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Sed sed elit eget purus consequat tempor eu ac mauris. Nulla facilisi. 
+              Vivamus consectetur molestie ipsum ac sollicitudin. 
+              Sed venenatis est sit amet nibh molestie vel pharetra velit commodo. 
+              Ut eros orci, sollicitudin sit amet ultricies vitae, varius ac quam. Pellentesque euismod.
+            </div>
+          </li>
+          <li>
+            <a href="images/banner/banner_03.jpg" title="architecture"><img src="images/banner/thumb_03.jpg"/></a>
+            <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
+            <div style="top:0px; left:0px; width:900px; height:0; color:#fff; background-color:#000;">
+              <h1>Project Portfolio</h1>
+              Lorem ipsum no sed posse dicit, cum affert hendrerit suscipiantur in. Est an quod amet utroque, perpetua eloquentiam ea pri. 
+              In vim alii dicam disputationi. Mea ne dicat commune petentium, dicit utamur percipit nec id. 
+              Id velit semper fierent eum.
+            </div>
+          </li>
+          <li>
+            <a href="images/banner/banner_04.jpg" title="architecture"><img src="images/banner/thumb_04.jpg"/></a>
+            <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
+            <div style="top:0px; left:0px; width:900px; height:0; color:#fff; background-color:#000;">
+              <h1>Project Portfolio</h1>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Sed sed elit eget purus consequat tempor eu ac mauris. Nulla facilisi. 
+              Vivamus consectetur molestie ipsum ac sollicitudin. 
+              Sed venenatis est sit amet nibh molestie vel pharetra velit commodo. 
+              Ut eros orci, sollicitudin sit amet ultricies vitae, varius ac quam. Pellentesque euismod.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>	
+</div>
+
+
+
+
+
+
+
   <hr/>
 </div></div><!--home_banner-->
-<script>
-  $('#slideshowHolder').jqFancyTransitions({ width: 900, height: 300 });
-</script>
 
 <?php 
   include get_resource("includes/navigation.php"); 

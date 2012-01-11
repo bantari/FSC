@@ -4,13 +4,11 @@
   $nesting  = 1;
   $gallery  = true;
 
-  function image_thumb($name) 
+  function image_block($name) 
   {
-    $thumb = "<a href='#".$name."'><img src='".get_resource("images/".$name.".jpg' width='100' /></a>");
-    //$block = "<div id='".$name."' style='display:none;'><img src='".get_resource("images/".$name.".jpg'/></div>";
-    //$block = "<div id='" .$name. "' style='display:none;'>".$name."</div>";
-    //$block = '';
-    return $thumb;
+    $thumb = "<a class='zoom' href='#".$name."'><img src='".get_resource("images/".$name.".jpg")."' width='100' /></a>";
+    $block = "<div id='".$name."' style='display: none;'><img src='".get_resource("images/".$name.".jpg")."' /><div class='content for_zoom'></div></div>";
+    return $thumb . $block;
   }
   
 
@@ -76,8 +74,8 @@
           
           <div class="columns">
             <div class="column first" style="width:120px;">
-              <?php echo image_thumb('Elisif_20110621_0260'); ?>
-              <?php echo image_thumb('Elisif_20110613_9237'); ?>
+              <?php echo image_block('Elisif_20110621_0260'); ?>
+              <?php echo image_block('Elisif_20110613_9237'); ?>
             </div>
             <div class="column last" style="width:500px;">
               <h3>Higgins Hall - Boston College; Chestnut Hill, MA. </h3>
@@ -101,7 +99,7 @@
           <hr/>
           <div class="columns">
             <div class="column first" style="width:120px;">
-              <?php echo image_thumb('Elisif_20110615_9238'); ?>
+              <?php echo image_block('Elisif_20110615_9238'); ?>
             </div>
             <div class="column last" style="width:500px;">
               <h3>West Campus Residence Halls, Buildings B & C - Northeastern University; Boston, MA. </h3>
