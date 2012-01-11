@@ -2,7 +2,7 @@
 
   include '__includes/master.php';
 
-  $page = (isset($_GET['page']) ? $_GET['page'] : 'about/index' );
+  $page = (isset($_GET['page']) ? $_GET['page'] : 'home/index' );
   
   $page_url   = get_page_url($page);
   $navigation = get_navigation($page);
