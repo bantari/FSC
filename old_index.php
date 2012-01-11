@@ -1,5 +1,5 @@
 <?php
-  $page     = "index_new";
+  $page     = "index";
   $section  = "home";
   $nesting  = 0;
   include "includes/setup.php";
@@ -14,6 +14,7 @@
 
 
 <div class="container">
+
   <div class="wt-rotator">
     <div class="screen">
       <noscript><!-- placeholder 1st image when javascript is off -->
@@ -27,8 +28,8 @@
           <li>
             <a href="images/banner/banner_01.jpg" title="architecture"><img src="images/banner/thumb_01.jpg"/></a>
             <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
-            <div style="top:150px; left:20px; width:400px; height:0; color:#FFF; background-color:#666;">
-              <h1>JQuery Banner Rotator</h1>
+            <div style="top:0px; left:0px; width:900px; height:0; color:#fff; background-color:#000;">
+              <h1>Project Portfolio</h1>
               Lorem ipsum no sed posse dicit, cum affert hendrerit suscipiantur in. Est an quod amet utroque, perpetua eloquentiam ea pri. 
               In vim alii dicam disputationi. Mea ne dicat commune petentium, dicit utamur percipit nec id. 
               Id velit semper fierent eum.
@@ -37,8 +38,8 @@
           <li>
             <a href="images/banner/banner_02.jpg" title="architecture"><img src="images/banner/thumb_02.jpg"/></a>
             <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
-            <div style="top:150px; left:20px; width:400px; height:0; color:#FFF; background-color:#000;">
-              <h1>JQuery Banner Rotator</h1>
+            <div style="top:0px; left:0px; width:900px; height:0; color:#fff; background-color:#000;">
+              <h1>Project Portfolio</h1>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Sed sed elit eget purus consequat tempor eu ac mauris. Nulla facilisi. 
               Vivamus consectetur molestie ipsum ac sollicitudin. 
@@ -49,8 +50,8 @@
           <li>
             <a href="images/banner/banner_03.jpg" title="architecture"><img src="images/banner/thumb_03.jpg"/></a>
             <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
-            <div style="top:150px; left:20px; width:400px; height:0; color:#FFF; background-color:#000;">
-              <h1>JQuery Banner Rotator</h1>
+            <div style="top:0px; left:0px; width:900px; height:0; color:#fff; background-color:#000;">
+              <h1>Project Portfolio</h1>
               Lorem ipsum no sed posse dicit, cum affert hendrerit suscipiantur in. Est an quod amet utroque, perpetua eloquentiam ea pri. 
               In vim alii dicam disputationi. Mea ne dicat commune petentium, dicit utamur percipit nec id. 
               Id velit semper fierent eum.
@@ -59,8 +60,8 @@
           <li>
             <a href="images/banner/banner_04.jpg" title="architecture"><img src="images/banner/thumb_04.jpg"/></a>
             <a href="<?php echo get_resource("projects/index.php"); ?>"></a>                        
-            <div style="top:150px; left:20px; width:400px; height:0; color:#FFF; background-color:#000;">
-              <h1>JQuery Banner Rotator</h1>
+            <div style="top:0px; left:0px; width:900px; height:0; color:#fff; background-color:#000;">
+              <h1>Project Portfolio</h1>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Sed sed elit eget purus consequat tempor eu ac mauris. Nulla facilisi. 
               Vivamus consectetur molestie ipsum ac sollicitudin. 

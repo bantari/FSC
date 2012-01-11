@@ -1,5 +1,6 @@
 .content {
   color: #666;
+  font: 12px/20px Arial,Helvetica,sans-serif;
 }
 .content_inner {}
 
@@ -55,7 +56,7 @@
   display: inline-block;
   margin-bottom: 10px;
   padding-right: 12px;
-  background: transparent url("images/arrow3.gif") right 4px no-repeat;
+  background: transparent url("images/arrow3.gif") right 7px no-repeat;
 }
 .content a.email {
   color: #69f;
@@ -89,7 +90,7 @@
 .content ul.wide {
   border: none;
 }
-.content ul li {
+.content ul.wide li {
   padding: 0px 0px 0px 12px;
   margin: 0px 0px 10px;
 }
@@ -120,7 +121,7 @@
   border: 1px solid #ccc;
   margin: 0px 0px 5px 0px;
   padding: 2px 5px;
-  width: 100%;
+  width: 96%;
 }
 .content textarea.with_error,
 .content input.with_error {

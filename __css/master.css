@@ -1,6 +1,6 @@
 body {
-  background: #000 url("images/body_bg.gif") top center no-repeat fixed;
   color: #000;
+  background: #000 url("images/body_bg.gif") top center no-repeat fixed;
   font: 12px/20px Arial,Helvetica,sans-serif;
 }
 
